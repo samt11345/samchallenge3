@@ -18,8 +18,12 @@ Wrote javascript for challenge 3
 
 N/A
 ### Usage
+https://samt11345.github.io/samchallenge3/<img width="681" alt="Screenshot 2023-06-16 114001" src="https://github.com/samt11345/samchallenge3/assets/130321211/9c1c4411-b0f2-4ab7-b931-b34c2d487169">
+
 
 this is a random password generator 
+
+
 
 
 ### Credits
