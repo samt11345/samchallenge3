@@ -1,17 +1,30 @@
 # samchallenge3
 this is the challenge for this week for school!
 
+# samuel-challenge 3
+
+## samuel williams challenge 3
+
+### Project Description
+
+Wrote javascript for challenge 3
+
+### Table of Contents
+
+* **Biography About Me**
+* **Work samples**
+* **Contact Info**
+### Installation
+
+N/A
+### Usage
+
+this is a random password generator 
 
 
+### Credits
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+### License
+N/A
 
-<!-- THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page -->
+
