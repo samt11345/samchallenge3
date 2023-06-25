@@ -5,27 +5,42 @@ function  generatePassword(){
   //ask user for password length
   var passLength = parseInt(prompt("enter your desired password length (between 8 and 12):"))
  
-  if (isNaN(passLength) || passLength > 8 || passLength <128) {
+  if (isNaN(passLength) || passLength < 8 || passLength >128) {
     alert("invalid input");
     return;
   }
   //ask user to okay lower case characters
   var lowerCaseOk = confirm("would you like lower case letters")
+  var upperCaseOk = confirm("would you like upper case letters")
+  var numberOk = confirm("would you like numbers")
+  var specCharOk = confirm("would you like special characters")
+
+  while(!(upperCaseOk||lowerCaseOk||numberOk||specCharOk)){
+    alert ("you have to pick one")
+    var lowerCaseOk = confirm("would you like lower case letters")
+    var upperCaseOk = confirm("would you like upper case letters")
+    var numberOk = confirm("would you like numbers")
+    var specCharOk = confirm("would you like special characters")
+   
+  }
  
-  if(lowerCaseOk === true){
+  if(lowerCaseOk === true){ 
     
    characterArray = characterArray.concat( "abcdefghijklmnopqrstuvwxyz")
    //add lower case characters to empty array
   }
-  if(confirm("would you like upper case letters")){
+  if(upperCaseOk===true){
     characterArray = characterArray.concat("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
   }
-  if(confirm("would you like numbers ")){
+  if(numberOk ===true){
     characterArray = characterArray.concat("1234567890")
   }
-  if(confirm("would you like special characters")){
+  if(specCharOk===true){
     characterArray = characterArray.concat("!@#$%^")
   }
+
+  
+  
   characterArray = characterArray.split("")
   //ask user to okay upper case characters
   var results = ""
